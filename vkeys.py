@@ -23,7 +23,11 @@ KEYEVENTF_SCANCODE = 0x0008
 MAPVK_VK_TO_VSC = 0
 
 # https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes?redirectedfrom=MSDN
-KEY_MAP = {'tab': 0x09,  # Special Keys
+KEY_MAP = {
+           'enter': 0x0D,
+           'return': 0x0D,
+           'escape': 0x1B,
+           'tab': 0x09,  # Special Keys
            'alt': 0x12,
            'space': 0x20,
            'lshift': 0xA0,
